@@ -1,6 +1,0 @@
-https://www.section.io/engineering-education/dockerized-php-apache-and-mysql-container-development-environment/
-
-docker build -t my-php-app .
-docker run -d --name my-running-app my-php-app
-
-docker run -d -p 8080:80 --name my-apache-php-app -v "$PWD":/var/www/html php:7.2-apache
